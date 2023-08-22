@@ -1,4 +1,4 @@
-const cardapio = require('./cardapio');
+import {cardapio} from './cardapio.js';
 class CaixaDaLanchonete {
 
     calcularValorDaCompra(metodoDePagamento, itens) {

@@ -1,4 +1,4 @@
-const cardapio = {
+export const cardapio = {
     'cafe': 3.00,
     'chantily': 1.50,
     'suco': 6.20,
@@ -8,5 +8,3 @@ const cardapio = {
     'combo1': 9.50,
     'combo2': 7.50
 };
-
-export default cardapio;
