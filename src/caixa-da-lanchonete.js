@@ -1,10 +1,12 @@
-import {cardapio} from './cardapio.js';
+import { cardapio } from "./cardapio.js";
 class CaixaDaLanchonete {
-
-    calcularValorDaCompra(metodoDePagamento, itens) {
-        console.log(cardapio)
-        return "";
+  calcularValorDaCompra(metodoDePagamento, itens) {
+    if (itens.length == 0) {
+      return "Não há itens no carrinho de compra!";
     }
+
+    return "";
+  }
 }
 
 export { CaixaDaLanchonete };
